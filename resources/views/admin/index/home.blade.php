@@ -8,6 +8,7 @@
             <li class="active">Dashboard</li>
         </ol>
     </div>
+    <input type="hidden" id="navactive" parentvalue="navbase" val="product" />
 @stop
 
 @section('contentpanel')

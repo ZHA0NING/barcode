@@ -16,7 +16,30 @@ Route::get('/', function () {
     return view('admin.index.home');
     //return view('welcome');
 });
+Route::get('/index', function () {
+    //return view('admin.layout.base');
+    return view('admin.index.home');
+    //return view('welcome');
+});
+Route::get('/user/signout', function () {
 
+    //return view('admin.layout.base');
+    return view('admin.user.signin');
+    //return view('welcome');
+});
+
+Route::get('/changku/ruku', function () {
+
+    //return view('admin.layout.base');
+    return view('admin.index.ruku');
+    //return view('welcome');
+});
+Route::get('/shengchan', function () {
+
+    //return view('admin.layout.base');
+    return view('admin.index.shengchan');
+    //return view('welcome');
+});
 
 /*
 |-------------------------------------------------------------------------- 
